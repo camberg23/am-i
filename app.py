@@ -23,12 +23,18 @@ st.markdown("""
         font-weight: 300;
         letter-spacing: 0.05em;
         margin-bottom: 2rem;
+        color: #F5F5F5;
+    }
+    
+    /* Style headers */
+    h3 {
+        color: #F5F5F5;
     }
     
     /* Style paragraphs */
     p {
         line-height: 1.8;
-        color: #333;
+        color: #F5F5F5;
         text-align: justify;
     }
     
@@ -45,7 +51,7 @@ st.markdown("""
         text-align: center;
         margin-top: 3rem;
         padding-top: 2rem;
-        border-top: 1px solid #ddd;
+        border-top: 1px solid #444;
     }
     
     /* Hide Streamlit branding */
@@ -60,7 +66,7 @@ st.markdown("# Am I?")
 
 # Subtitle
 st.markdown("""
-<p style="text-align: center; font-style: italic; color: #666; margin-bottom: 2rem;">
+<p style="text-align: center; font-style: italic; color: #B0B0B0; margin-bottom: 2rem;">
 A documentary at the strange threshold of machine consciousness
 </p>
 """, unsafe_allow_html=True)
