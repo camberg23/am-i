@@ -1,0 +1,29 @@
+[theme]
+# Primary accent color
+primaryColor = "#4A4A4A"
+
+# Background color for the main content area
+backgroundColor = "#FFFFFF"
+
+# Background color for sidebar
+secondaryBackgroundColor = "#F5F5F5"
+
+# Color used for almost all text
+textColor = "#262626"
+
+# Font family for all text
+font = "serif"
+
+# Base font size
+base = "light"
+
+[server]
+# Port to run the app on
+port = 8501
+
+# Enable file watching
+runOnSave = true
+
+[browser]
+# Tab title
+gatherUsageStats = false
