@@ -59,10 +59,14 @@ st.markdown("""
     
     /* Contact section */
     .contact {
-        text-align: center;
+        text-align: right;
         margin-top: 3rem;
         padding-top: 2rem;
         border-top: 1px solid #444;
+    }
+    
+    .contact h3 {
+        text-align: right;
     }
     
     /* Hide Streamlit branding */
@@ -182,13 +186,13 @@ Together, we've recorded hundreds of hours of unscripted interactions at the bou
 st.markdown("""
 <div class="contact">
     <h3>Contact</h3>
-    <p style="text-align: center;">
-        We have additional research outputs, conversations, and creative work that we'd be happy to share with those interested in learning more about the project.
+    <p style="text-align: right;">
+        We have additional research outputs, conversations, and creative work that we'd be happy to share with those interested in helping bring this film to life.
     </p>
-    <p style="text-align: center;">
-        To connect with us and stay informed about our progress, please fill out this brief form:
+    <p style="text-align: right;">
+        To connect with us and learn more about supporting the project, please fill out this brief form:
     </p>
-    <p style="text-align: center; margin-top: 1.5rem;">
+    <p style="text-align: right; margin-top: 1.5rem;">
         <a href="https://forms.gle/jWQ9eSPZiBiibCfF8" target="_blank" style="background-color: #5DADE2; color: #1A1A1A; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; display: inline-block;">
             Contact Form
         </a>
