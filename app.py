@@ -28,7 +28,7 @@ st.markdown("""
     /* Center title */
     h1 {
         text-align: center;
-        font-weight: 400;
+        font-weight: 300;
         letter-spacing: 0.05em;
         margin-bottom: 2rem;
         color: #F5F5F5;
