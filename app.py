@@ -8,15 +8,15 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Custom CSS for styling with Roboto font
+# Custom CSS for styling with Montserrat font
 st.markdown("""
 <style>
-    /* Import Roboto font */
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    /* Import Montserrat font */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     
     /* Apply font to all elements */
     * {
-        font-family: 'Roboto', sans-serif !important;
+        font-family: 'Montserrat', sans-serif !important;
     }
     
     /* Remove default Streamlit padding */
@@ -32,13 +32,13 @@ st.markdown("""
         letter-spacing: 0.05em;
         margin-bottom: 2rem;
         color: #F5F5F5;
-        font-family: 'Roboto', sans-serif !important;
+        font-family: 'Montserrat', sans-serif !important;
     }
     
     /* Style headers */
     h3 {
         color: #F5F5F5;
-        font-family: 'Roboto', sans-serif !important;
+        font-family: 'Montserrat', sans-serif !important;
     }
     
     /* Style paragraphs */
@@ -46,7 +46,7 @@ st.markdown("""
         line-height: 1.8;
         color: #F5F5F5;
         text-align: justify;
-        font-family: 'Roboto', sans-serif !important;
+        font-family: 'Montserrat', sans-serif !important;
     }
     
     /* Video container styling */
@@ -59,14 +59,14 @@ st.markdown("""
     
     /* Contact section */
     .contact {
-        text-align: right;
+        text-align: left;
         margin-top: 3rem;
         padding-top: 2rem;
         border-top: 1px solid #444;
     }
     
     .contact h3 {
-        text-align: right;
+        text-align: left;
     }
     
     /* Hide Streamlit branding */
@@ -186,13 +186,13 @@ Together, we've recorded hundreds of hours of unscripted interactions at the bou
 st.markdown("""
 <div class="contact">
     <h3>Contact</h3>
-    <p style="text-align: right;">
+    <p>
         We have additional research outputs, conversations, and creative work that we'd be happy to share with those interested in helping bring this film to life.
     </p>
-    <p style="text-align: right;">
+    <p>
         To connect with us and learn more about supporting the project, please fill out this brief form:
     </p>
-    <p style="text-align: right; margin-top: 1.5rem;">
+    <p style="text-align: center; margin-top: 1.5rem;">
         <a href="https://forms.gle/jWQ9eSPZiBiibCfF8" target="_blank" style="background-color: #5DADE2; color: #1A1A1A; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; display: inline-block;">
             Contact Form
         </a>
