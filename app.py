@@ -2,7 +2,7 @@ import streamlit as st
 
 # Page config
 st.set_page_config(
-    page_title="Am I?",
+    page_title="Am I? - A Documentary",
     page_icon="am i logo no background.png",  # Using your logo as favicon
     layout="centered",
     initial_sidebar_state="collapsed"
