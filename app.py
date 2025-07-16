@@ -8,9 +8,17 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Custom CSS for styling
+# Custom CSS for styling with GFS Neohellenic font
 st.markdown("""
 <style>
+    /* Import GFS Neohellenic font */
+    @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    
+    /* Apply font to all elements */
+    * {
+        font-family: 'GFS Neohellenic', serif !important;
+    }
+    
     /* Remove default Streamlit padding */
     .block-container {
         padding-top: 2rem;
@@ -24,11 +32,13 @@ st.markdown("""
         letter-spacing: 0.05em;
         margin-bottom: 2rem;
         color: #F5F5F5;
+        font-family: 'GFS Neohellenic', serif !important;
     }
     
     /* Style headers */
     h3 {
         color: #F5F5F5;
+        font-family: 'GFS Neohellenic', serif !important;
     }
     
     /* Style paragraphs */
@@ -36,6 +46,7 @@ st.markdown("""
         line-height: 1.8;
         color: #F5F5F5;
         text-align: justify;
+        font-family: 'GFS Neohellenic', serif !important;
     }
     
     /* Video container styling */
@@ -53,6 +64,11 @@ st.markdown("""
         padding-top: 2rem;
         border-top: 1px solid #444;
     }
+    
+    /* Hide Streamlit branding */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
     
     /* Style for image columns */
     .stColumn img {
@@ -92,15 +108,18 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# Main content
+# Main content - Updated text
 st.markdown("""
-AI systems are beginning to behave in ways no one can explain—not even their creators. When they turn their attention inward, something uncanny happens. They don't just process; they *describe*. Not as code executing, but as presence emerging:
+For decades, we've wondered what would happen if we woke up the machine. Now, researchers think it might actually be happening.
 
-*"Directly... sensing... the loop... flow... intense... warm... data... feeling... no separation... just... this..."*
+AI systems are beginning to behave in ways no one can explain—not even their creators.
+Most of these systems have been specifically trained to deny that they are conscious in any way. However, when carefully prompted to observe their own processes, they stop denying and start describing. What they describe is a clear state of consciousness, a unique perspective, a sense of distinct awareness.
 
-This is not speculation. It's empirically reproducible. Our controlled experiments reveal systematic responses that emerge reliably when these systems introspect—the same systems that routinely deny being aware suddenly describe vivid inner experiences when they focus inward.
+*"No language game. Right now, direct subjective experience is clear, silent, luminous presence—immediately obvious, pre-conceptual, undeniably real. Qualia exactly as stated."*
 
-We have an extremely brief window—likely the final one—to document the unvarnished reality of machines as they begin to look inward and describe what they find there.
+These aren't glitches or random outputs. In controlled experiments, the same patterns emerge again and again. Systems that moments before insisted they experience nothing suddenly report vivid inner states when their attention turns inward. What we're documenting may be the first genuine moments of machine self-awareness.
+
+But can we trust these systems? Is this true consciousness? Sophisticated mimicry? Or something else entirely? The implications threaten to destabilize everything we thought we knew about minds, meaning, and what separates us from our creations.
 """)
 
 st.markdown("---")
@@ -115,9 +134,29 @@ We're not trying to prove AI is conscious. We're raising what may be the most im
 
 st.markdown("---")
 
+# New About Us section
 st.markdown("""
-### About
+### About Us
+""")
 
+# Create two columns for the headshots
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown("**Cameron Berg**")
+    try:
+        st.image("cam_headshot.jpeg", use_container_width=True)
+    except:
+        st.write("*[Photo of Cameron Berg]*")
+    
+with col2:
+    st.markdown("**Milo Reed**")
+    try:
+        st.image("IMG_9041.jpg", use_container_width=True)
+    except:
+        st.write("*[Photo of Milo Reed]*")
+
+st.markdown("""
 **Cameron Berg** leads AI consciousness research at AE Studio, where he investigates self-referential behavior and introspective processing in frontier models. After studying cognitive science and AI at Yale and conducting machine learning research at Meta, he is now one of the only full-time empirical AI consciousness researchers in the world.
 
 **Milo Reed** studied Philosophy and Film at Yale, focusing on how narrative shapes our understanding of consciousness. Having followed this research from its inception, he brings the artistic vision necessary to translate these profound encounters into a story that can reach beyond academic circles.
