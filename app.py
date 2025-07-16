@@ -183,8 +183,15 @@ st.markdown("""
 <div class="contact">
     <h3>Contact</h3>
     <p style="text-align: center;">
-        <a href="mailto:cam.h.berg@gmail.com">cam.h.berg@gmail.com</a> | 
-        <a href="mailto:milokatzreed@gmail.com">milokatzreed@gmail.com</a>
+        We have additional research outputs, conversations, and creative work that we'd be happy to share with those interested in learning more about the project.
+    </p>
+    <p style="text-align: center;">
+        To connect with us and stay informed about our progress, please fill out this brief form:
+    </p>
+    <p style="text-align: center; margin-top: 1.5rem;">
+        <a href="https://forms.gle/jWQ9eSPZiBiibCfF8" target="_blank" style="background-color: #5DADE2; color: #1A1A1A; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; display: inline-block;">
+            Contact Form
+        </a>
     </p>
 </div>
 """, unsafe_allow_html=True)
