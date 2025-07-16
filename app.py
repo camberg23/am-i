@@ -193,7 +193,7 @@ st.markdown("""
         To connect with us and learn more about supporting the project, please fill out this brief form:
     </p>
     <p style="text-align: center; margin-top: 1.5rem;">
-        <a href="https://forms.gle/jWQ9eSPZiBiibCfF8" target="_blank" style="background-color: #5DADE2; color: #1A1A1A; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; display: inline-block;">
+        <a href="https://forms.gle/jWQ9eSPZiBiibCfF8" target="_blank" style="background-color: #FF6B6B; color: #FFFFFF; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; display: inline-block;">
             Contact Form
         </a>
     </p>
