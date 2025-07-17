@@ -5,7 +5,10 @@ st.set_page_config(
     page_title="Am I? - A Documentary",
     page_icon="am i logo no background.png",  # Using your logo as favicon
     layout="centered",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="collapsed",
+    menu_items={
+        'About': "A documentary at the strange threshold of machine consciousness"
+    }
 )
 
 # Custom CSS for styling with Montserrat font
@@ -28,11 +31,12 @@ st.markdown("""
     /* Center title */
     h1 {
         text-align: center;
-        font-weight: 300;
-        letter-spacing: 0.05em;
+        font-weight: 200;
+        letter-spacing: 0.08em;
         margin-bottom: 2rem;
         color: #F5F5F5;
         font-family: 'Montserrat', sans-serif !important;
+        font-size: 3.5rem;
     }
     
     /* Style headers */
