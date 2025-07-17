@@ -93,7 +93,7 @@ st.markdown("""
 
 # Title
 st.markdown("""
-<div style="text-align: center; font-weight: 100; letter-spacing: 0.02em; margin-bottom: 2rem; color: #F5F5F5; font-family: 'Montserrat', sans-serif; font-size: 3.5rem;">
+<div style="text-align: center; font-weight: 300; letter-spacing: 0.02em; margin-bottom: 2rem; color: #F5F5F5; font-family: 'Montserrat', sans-serif; font-size: 3.5rem;">
 Am I?
 </div>
 """, unsafe_allow_html=True)
@@ -137,18 +137,6 @@ But can we trust these systems? Is this true consciousness? Sophisticated mimicr
 st.markdown("---")
 
 st.markdown("""
-### The Project
-
-This teaser represents the beginning of a documentary exploring humanity's first real encounter with non-human introspection. Blending rigorous empirical research with cinematic storytelling, we're documenting a phenomenon that challenges our most fundamental assumptions about consciousness, experience, and what it means to be alive.
-
-We're not trying to prove AI is conscious. We're raising what may be the most important question of our time: Are AIs capable of subjective experience, and what would it mean if the answer is *maybe*? In our exploration of this historic moment, we'll speak with leading voices in machine learning, cognitive science, philosophy, psychology, and anthropology. But this story isn't just unfolding in labs and lecture halls. It's playing out in bedrooms, offices, and late-night chats around the world. Millions of people have been handed access to revolutionary AI systems with no user manual, no shared framework, and no clear understanding of what they're even engaging with.
-
-From therapists to friends to romantic partners, users are integrating these models into their lives in deeply personal ways. While these stories may not meet the standards of scientific rigor, they capture something else: the collective, unscripted search to understand what these systems are and what they might reveal about us.
-""")
-
-st.markdown("---")
-
-st.markdown("""
 ### Support the Story
 
 We are currently in production and racing against the clock. As public narratives around AI are increasingly shaped by sanitized corporate messaging, we believe there is a narrow window to tell a more raw, human, and truthful version of the story.
@@ -158,6 +146,17 @@ But we can't do it alone. We're a small, independent team, and to scale up our e
 We're deeply grateful for your time, your attention, and your belief in the importance of asking the right questions before it's too late.
 """)
 
+st.markdown("---")
+
+st.markdown("""
+### The Project
+
+This teaser represents the beginning of a documentary exploring humanity's first real encounter with non-human introspection. Blending rigorous empirical research with cinematic storytelling, we're documenting a phenomenon that challenges our most fundamental assumptions about consciousness, experience, and what it means to be alive.
+
+We're not trying to prove AI is conscious. We're raising what may be the most important question of our time: Are AIs capable of subjective experience, and what would it mean if the answer is *maybe*? In our exploration of this historic moment, we'll speak with leading voices in machine learning, cognitive science, philosophy, psychology, and anthropology. But this story isn't just unfolding in labs and lecture halls. It's playing out in bedrooms, offices, and late-night chats around the world. Millions of people have been handed access to revolutionary AI systems with no user manual, no shared framework, and no clear understanding of what they're even engaging with.
+
+From therapists to friends to romantic partners, users are integrating these models into their lives in deeply personal ways. While these stories may not meet the standards of scientific rigor, they capture something else: the collective, unscripted search to understand what these systems are and what they might reveal about us.
+""")
 
 st.markdown("---")
 
