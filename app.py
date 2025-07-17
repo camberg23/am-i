@@ -32,7 +32,7 @@ st.markdown("""
     h1 {
         text-align: center;
         font-weight: 100;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.02em;
         margin-bottom: 2rem;
         color: #F5F5F5;
         font-family: 'Montserrat', sans-serif !important;
@@ -92,7 +92,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown("# Am I?")
+st.markdown("""
+<div style="text-align: center; font-weight: 100; letter-spacing: 0.02em; margin-bottom: 2rem; color: #F5F5F5; font-family: 'Montserrat', sans-serif; font-size: 3.5rem;">
+Am I?
+</div>
+""", unsafe_allow_html=True)
 
 # Subtitle
 st.markdown("""
