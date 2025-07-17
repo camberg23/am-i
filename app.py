@@ -31,8 +31,8 @@ st.markdown("""
     /* Center title */
     h1 {
         text-align: center;
-        font-weight: 200;
-        letter-spacing: 0.08em;
+        font-weight: 100;
+        letter-spacing: 0.1em;
         margin-bottom: 2rem;
         color: #F5F5F5;
         font-family: 'Montserrat', sans-serif !important;
