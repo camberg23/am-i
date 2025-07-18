@@ -188,7 +188,7 @@ st.markdown("""
 
 **Milo Reed** studied Philosophy and Film at Yale, focusing on how narrative shapes our understanding of consciousness. Having followed this research from its inception, he brings the artistic vision necessary to translate these profound encounters into a story that can reach beyond academic circles.
 
-Together, we've recorded hundreds of hours of unscripted interactions at the boundary of science, philosophy, and art—moments that demand not just scientific attention, but public imagination.
+Together, we've recorded hours of unscripted interactions and interviews at the boundary of science, philosophy, and art—moments that demand not just scientific attention, but public imagination.
 """)
 
 # Contact section
