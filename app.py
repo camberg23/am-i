@@ -123,11 +123,6 @@ st.markdown(f"""
 # Add divider before slides
 st.markdown("---")
 
-# Slides section
-st.markdown("""
-### Our Vision
-""")
-
 # Google Slides embed
 st.markdown("""
 <div style="margin: 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
