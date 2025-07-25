@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Am I? - A Documentary",
     page_icon="am i logo no background.png",  # Using your logo as favicon
-    layout="centered",
+    layout="wide",
     initial_sidebar_state="collapsed",
     menu_items={
         'About': "A documentary at the strange threshold of machine consciousness"
