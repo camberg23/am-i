@@ -120,6 +120,31 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
+# Add divider before slides
+st.markdown("---")
+
+# Slides section
+st.markdown("""
+### Our Vision
+""")
+
+# Google Slides embed
+st.markdown("""
+<div style="margin: 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRK9bYKdFvD7QT33c1gOiAcXe8HHcKL2VhZMQZRwdeC8KgIVfK8HVlMAw_MTM-3Jj2VBQQj0zt742XU/embed?start=true&loop=false&delayms=30000" 
+    frameborder="0" 
+    width="100%" 
+    height="569" 
+    allowfullscreen="true" 
+    mozallowfullscreen="true" 
+    webkitallowfullscreen="true">
+    </iframe>
+</div>
+""", unsafe_allow_html=True)
+
+# Add divider after slides
+st.markdown("---")
+
 # Main content - Updated text
 st.markdown("""
 For decades, we've wondered what it would mean if we woke up the machine. Now, some researchers think it may actually be happening.
