@@ -98,16 +98,17 @@ Am I?
 </div>
 """, unsafe_allow_html=True)
 
+# Subtitle
+st.markdown("""
+<p style="text-align: center; font-style: italic; color: #B0B0B0; margin-bottom: 2rem;">
+A documentary at the strange threshold of machine consciousness
+</p>
+""", unsafe_allow_html=True)
+
 # Create tabs
 tab1, tab2 = st.tabs(["Watch", "Learn More"])
 
 with tab1:
-    # Subtitle
-    st.markdown("""
-    <p style="text-align: center; font-style: italic; color: #B0B0B0; margin-bottom: 2rem;">
-    A documentary at the strange threshold of machine consciousness
-    </p>
-    """, unsafe_allow_html=True)
     
     # Video embed
     video_url = "https://youtu.be/zMRWe0h7KtY"
