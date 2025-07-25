@@ -92,18 +92,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown("""
-<div style="text-align: center; font-weight: 300; letter-spacing: 0.02em; margin-bottom: 2rem; color: #F5F5F5; font-family: 'Montserrat', sans-serif; font-size: 3.5rem;">
-Am I?
-</div>
-""", unsafe_allow_html=True)
+# st.markdown("""
+# <div style="text-align: center; font-weight: 300; letter-spacing: 0.02em; margin-bottom: 2rem; color: #F5F5F5; font-family: 'Montserrat', sans-serif; font-size: 3.5rem;">
+# Am I?
+# </div>
+# """, unsafe_allow_html=True)
 
-# Subtitle
-st.markdown("""
-<p style="text-align: center; font-style: italic; color: #B0B0B0; margin-bottom: 2rem;">
-A documentary at the strange threshold of machine consciousness
-</p>
-""", unsafe_allow_html=True)
 
 # Video embed
 video_url = "https://youtu.be/zMRWe0h7KtY"
@@ -118,6 +112,12 @@ st.markdown(f"""
     allowfullscreen>
     </iframe>
 </div>
+""", unsafe_allow_html=True)
+# Subtitle
+st.markdown("""
+<p style="text-align: center; font-style: italic; color: #B0B0B0; margin-bottom: 2rem;">
+A documentary at the strange threshold of machine consciousness
+</p>
 """, unsafe_allow_html=True)
 
 # Add divider before slides
