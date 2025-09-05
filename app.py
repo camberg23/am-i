@@ -129,7 +129,7 @@ with tab2:
     # Google Slides embed
     st.markdown("""
     <div style="margin: 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRK9bYKdFvD7QT33c1gOiAcXe8HHcKL2VhZMQZRwdeC8KgIVfK8HVlMAw_MTM-3Jj2VBQQj0zt742XU/embed?start=true&loop=false&delayms=30000" 
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSx47oeoPyqAYJ1OemB9OktCEK3PSVplSSUgRtpikjYxGZwU8WiVCI3fpFTDVaL1lWGGrk3-5V8xGGI/pubembed?start=false&loop=true&delayms=60000"
         frameborder="0" 
         width="100%" 
         height="569" 
